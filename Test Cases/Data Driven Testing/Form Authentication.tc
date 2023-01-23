@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>login dengan menggunakan username dan password yang sudah digunakan</description>
+   <name>Form Authentication</name>
+   <tag>Data Driven</tag>
+   <comment></comment>
+   <testCaseGuid>a01dd11d-7113-4933-98c8-21a0a7fc3fb0</testCaseGuid>
+   <variable>
+      <defaultValue>'tomsmith'</defaultValue>
+      <description></description>
+      <id>3839280e-467b-4890-b762-35a881b3f9bd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'T6bVo8B8lVC7U1u1L64B7tu+ltX9y9HI'</defaultValue>
+      <description></description>
+      <id>99e99a9a-97d8-4dac-b166-cf31fb97a3bb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

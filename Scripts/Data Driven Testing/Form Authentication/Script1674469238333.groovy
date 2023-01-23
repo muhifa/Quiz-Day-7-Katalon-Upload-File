@@ -21,3 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_Form Authentication'))
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/input_Username_username'))
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce'))
+
+WebUI.setText(findTestObject('Object Repository/Page_The Internet/input_Username_username'), username)
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_The Internet/input_Password_password'), password)
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/button_Login'))
+
+WebUI.closeBrowser()
+

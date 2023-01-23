@@ -21,9 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/a_Digest Authentication'))
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_Form Authentication'))
 
-WebUI.dismissAlert()
+WebUI.setText(findTestObject('Object Repository/Page_The Internet/input_Username_username'), userneme)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_The Internet/input_Password_password'), password)
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/i_Login'))
+
+WebUI.verifyTextPresent('Your username is invalid!', false)
 
 WebUI.closeBrowser()
 

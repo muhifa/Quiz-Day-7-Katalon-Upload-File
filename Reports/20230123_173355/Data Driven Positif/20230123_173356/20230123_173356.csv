@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Positif,Chrome 109.0.0.0,,,2023-01-23 17:34:00,2023-01-23 17:34:14,14.913s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/Form Authentication,Chrome 109.0.0.0,login dengan menggunakan username dan password yang sudah digunakan,Data Driven,2023-01-23 17:34:00,2023-01-23 17:34:14,14.422s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-23 17:34:01,2023-01-23 17:34:03,2.509s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-23 17:34:03,2023-01-23 17:34:09,5.883s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Form Authentication""))",Chrome 109.0.0.0,,,2023-01-23 17:34:09,2023-01-23 17:34:10,1.496s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/input_Username_username""))",Chrome 109.0.0.0,,,2023-01-23 17:34:10,2023-01-23 17:34:11,0.394s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce""))",Chrome 109.0.0.0,,,2023-01-23 17:34:11,2023-01-23 17:34:11,0.407s,PASSED
+"setText(findTestObject(""Object Repository/Page_The Internet/input_Username_username""), username)",Chrome 109.0.0.0,,,2023-01-23 17:34:11,2023-01-23 17:34:12,0.726s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce""))",Chrome 109.0.0.0,,,2023-01-23 17:34:12,2023-01-23 17:34:12,0.392s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_The Internet/input_Password_password""), password)",Chrome 109.0.0.0,,,2023-01-23 17:34:12,2023-01-23 17:34:13,0.490s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/button_Login""))",Chrome 109.0.0.0,,,2023-01-23 17:34:13,2023-01-23 17:34:14,0.981s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-23 17:34:14,2023-01-23 17:34:14,0.634s,PASSED
