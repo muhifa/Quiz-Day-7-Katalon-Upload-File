@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_Form Authentication'))
+
+WebUI.setText(findTestObject('Object Repository/Page_The Internet/input_Username_username'), userneme)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_The Internet/input_Password_password'), password)
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/i_Login'))
+
+WebUI.verifyTextPresent('Your username is invalid!', false)
+
+WebUI.closeBrowser()
+

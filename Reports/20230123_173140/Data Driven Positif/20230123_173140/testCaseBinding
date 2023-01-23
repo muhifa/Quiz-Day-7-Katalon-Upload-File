@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/Data Driven Testing/Basic Auth","testCaseId":"Test Cases/Data Driven Testing/Basic Auth","iterationVariableName":""}
+{"testCaseName":"Test Cases/Data Driven Testing/Digest Authentication","testCaseId":"Test Cases/Data Driven Testing/Digest Authentication","iterationVariableName":""}
+{"testCaseName":"Test Cases/Data Driven Testing/Form Authentication","testCaseId":"Test Cases/Data Driven Testing/Form Authentication","iterationVariableName":"","bindedValues":{"password":"\u0027SuperSecretPassword!\u0027","username":"\u0027tomsmith\u0027"}}

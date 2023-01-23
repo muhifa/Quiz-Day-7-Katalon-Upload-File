@@ -21,13 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/a_File Upload'))
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_Form Authentication'))
 
-WebUI.uploadFile(findTestObject('Page_The Internet/input_File Uploader_file'), Hallo)
+WebUI.click(findTestObject('Object Repository/Page_The Internet/input_Username_username'))
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/input_File Uploader_file-submit'))
+WebUI.click(findTestObject('Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce'))
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/Page_The Internet/input_Username_username'), username)
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_The Internet/input_Password_password'), password)
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/button_Login'))
 
 WebUI.closeBrowser()
 

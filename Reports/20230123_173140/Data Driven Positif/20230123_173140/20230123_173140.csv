@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven Positif,Chrome 109.0.0.0,,,2023-01-23 17:31:44,2023-01-23 17:32:26,41.906s,ERROR
+,,,,,,,
+Test Cases/Data Driven Testing/Basic Auth,Chrome 109.0.0.0,Melakukan authentikasi dengan menggunakan username dan password,Data Driving Tseting,2023-01-23 17:31:45,2023-01-23 17:31:51,6.321s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-23 17:31:45,2023-01-23 17:31:48,2.609s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-23 17:31:48,2023-01-23 17:31:51,3.168s,PASSED
+,,,,,,,
+Test Cases/Data Driven Testing/Digest Authentication,Chrome 109.0.0.0,login dengan menggunakan degest authentication dengan mengisi username dan password,Data Driven,2023-01-23 17:31:51,2023-01-23 17:31:51,0.003s,ERROR
+,,,,,,,
+Test Cases/Data Driven Testing/Form Authentication,Chrome 109.0.0.0,login dengan menggunakan username dan password yang sudah digunakan,Data Driven,2023-01-23 17:32:17,2023-01-23 17:32:26,9.027s,FAILED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-23 17:32:17,2023-01-23 17:32:19,1.851s,PASSED
+"navigateToUrl(""http://the-internet.herokuapp.com/"")",Chrome 109.0.0.0,,,2023-01-23 17:32:19,2023-01-23 17:32:23,3.899s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/a_Form Authentication""))",Chrome 109.0.0.0,,,2023-01-23 17:32:23,2023-01-23 17:32:24,1.163s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/input_Username_username""))",Chrome 109.0.0.0,,,2023-01-23 17:32:24,2023-01-23 17:32:24,0.399s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce""))",Chrome 109.0.0.0,,,2023-01-23 17:32:24,2023-01-23 17:32:25,0.438s,PASSED
+"setText(findTestObject(""Object Repository/Page_The Internet/input_Username_username""), username)",Chrome 109.0.0.0,,,2023-01-23 17:32:25,2023-01-23 17:32:25,0.699s,PASSED
+"click(findTestObject(""Object Repository/Page_The Internet/h4_This is where you can log into the secur_96f4ce""))",Chrome 109.0.0.0,,,2023-01-23 17:32:25,2023-01-23 17:32:26,0.378s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_The Internet/input_Password_password""), password)",Chrome 109.0.0.0,,,2023-01-23 17:32:26,2023-01-23 17:32:26,0.189s,FAILED
