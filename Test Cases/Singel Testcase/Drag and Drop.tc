@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>drag dan drop item pada halaman</description>
-   <name>Drag and Drop</name>
-   <tag>Other</tag>
-   <comment></comment>
-   <testCaseGuid>8703a6a3-9148-4c57-aac7-1ee6eef18faa</testCaseGuid>
-</TestCaseEntity>

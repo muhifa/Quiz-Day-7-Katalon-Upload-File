@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Menampilkan pesan pop up pada layar</description>
-   <name>Entry Ad</name>
-   <tag>Single</tag>
-   <comment></comment>
-   <testCaseGuid>f80b44a8-66da-422d-b918-ed699ec28127</testCaseGuid>
-</TestCaseEntity>
