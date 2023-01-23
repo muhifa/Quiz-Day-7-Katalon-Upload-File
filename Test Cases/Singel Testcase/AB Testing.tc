@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Membuka konten dengan menekan button A/B Testing</description>
-   <name>AB Testing</name>
-   <tag>Singel</tag>
-   <comment></comment>
-   <testCaseGuid>abe88dd3-d396-4024-97a9-807bb94e91c7</testCaseGuid>
-</TestCaseEntity>

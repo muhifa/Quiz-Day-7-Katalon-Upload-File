@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Memunculkan context menu denga menekan klik kiri pada box yang disediakan</description>
-   <name>Context Menu</name>
-   <tag>Singel</tag>
-   <comment></comment>
-   <testCaseGuid>0caf1b1d-0759-4852-b1f8-0faa68ffd3d5</testCaseGuid>
-</TestCaseEntity>
