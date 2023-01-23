@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_The Internet/a_AB Testing'))
+
+WebUI.verifyTextPresent('A/B Test Variation 1', false)
+
+WebUI.closeBrowser()
+
