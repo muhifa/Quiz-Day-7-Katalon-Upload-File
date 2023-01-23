@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>mengupload file dari device</description>
+   <name>File-Upload</name>
+   <tag>Other</tag>
+   <comment></comment>
+   <testCaseGuid>4ee49d11-4aca-4e54-ae15-ce93685c2891</testCaseGuid>
+</TestCaseEntity>
