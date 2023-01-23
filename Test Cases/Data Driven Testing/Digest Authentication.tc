@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>login dengan menggunakan degest authentication dengan mengisi username dan password</description>
+   <name>Digest Authentication</name>
+   <tag>Data Driven</tag>
+   <comment></comment>
+   <testCaseGuid>48fe87bc-2ecc-4601-8bc7-a749e3e2f41a</testCaseGuid>
+</TestCaseEntity>
