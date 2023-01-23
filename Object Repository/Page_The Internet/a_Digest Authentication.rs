@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bfda2010-fd27-432d-8f35-6d8f838f7725</webElementGuid>
+      <webElementGuid>53bd4e7e-9351-403e-b6e4-fc42c12fcaf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/digest_auth</value>
-      <webElementGuid>29f39ed0-0384-42d3-9fda-99a8bac2a2d6</webElementGuid>
+      <webElementGuid>3ecd2c24-2484-44b7-aca3-f8db428313c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Digest Authentication</value>
-      <webElementGuid>cd584ecf-543c-43ff-af89-a40e3cec0318</webElementGuid>
+      <webElementGuid>c39b6982-96fe-409c-887b-5b69f549317c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/ul[1]/li[8]/a[1]</value>
-      <webElementGuid>1cef4f92-abe6-4184-a187-6ed328fc5294</webElementGuid>
+      <webElementGuid>e10349b7-b64f-4db7-8d6f-6a78551a5aa9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content']/ul/li[8]/a</value>
-      <webElementGuid>c867c399-593b-4adc-a0fb-c23cbcc0a0c9</webElementGuid>
+      <webElementGuid>a5e6c32d-5173-42c9-b43c-a1ef1fa9630f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Digest Authentication')]</value>
-      <webElementGuid>a234f429-b6f0-457c-8f6e-6550d9530352</webElementGuid>
+      <webElementGuid>cea64e04-a834-4468-be51-bf24fec21ab5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Context Menu'])[1]/following::a[1]</value>
-      <webElementGuid>64002bfa-3b45-4234-9bca-bb262020b0a2</webElementGuid>
+      <webElementGuid>64b81e60-3d94-4927-9613-190d0786d377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Disappearing Elements'])[1]/preceding::a[1]</value>
-      <webElementGuid>ed91bb8c-1b17-4d05-af07-6a46db6c7b02</webElementGuid>
+      <webElementGuid>ede2da25-dd4d-47db-a495-7a6b6016b806</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Drag and Drop'])[1]/preceding::a[2]</value>
-      <webElementGuid>15b7b032-ca56-42cc-91cf-f8029b7c0e05</webElementGuid>
+      <webElementGuid>490489d7-15c6-4c3e-94e6-d9118c8133ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Digest Authentication']/parent::*</value>
-      <webElementGuid>416f6c0f-69a1-471d-80a5-34571bc5ce66</webElementGuid>
+      <webElementGuid>5dfd889a-6861-4249-bdc7-a7063e624376</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/digest_auth')]</value>
-      <webElementGuid>f9399547-ea52-45f1-97c0-c12bb1028e2d</webElementGuid>
+      <webElementGuid>e720577b-4b2d-4384-9f69-e4cc1acc58e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]/a</value>
-      <webElementGuid>5963edb5-2617-43eb-9a2e-5c02026d4feb</webElementGuid>
+      <webElementGuid>db01b608-3536-48ff-a3cf-8ce4e5f57c89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/digest_auth' and (text() = 'Digest Authentication' or . = 'Digest Authentication')]</value>
-      <webElementGuid>86862e4b-394b-426f-848b-1d2914eb4475</webElementGuid>
+      <webElementGuid>04d732c8-0bc8-47a0-a041-06720e82df80</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

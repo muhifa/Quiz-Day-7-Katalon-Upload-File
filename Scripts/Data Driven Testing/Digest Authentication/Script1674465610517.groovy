@@ -23,3 +23,7 @@ WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_The Internet/a_Digest Authentication'))
 
+WebUI.dismissAlert()
+
+WebUI.closeBrowser()
+
