@@ -6,12 +6,12 @@
    <elementGuidId>07203b9b-ed23-40bd-bdfc-5f95ef86e84b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='content']/ul/li/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>39629bc2-2918-4a7f-b5f6-20996484cb23</webElementGuid>
+      <webElementGuid>8e394abc-22c7-411c-a36c-92169f9590c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/abtest</value>
-      <webElementGuid>889ea892-8303-4d7d-811c-734dc9471de0</webElementGuid>
+      <webElementGuid>be873285-cc8c-4b7d-982f-97f8d43fc5b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>A/B Testing</value>
-      <webElementGuid>30e99850-cd1a-4251-b99a-4fe49a3f0b78</webElementGuid>
+      <webElementGuid>79ae92b2-dd43-4147-b356-16a28ee9ebc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/ul[1]/li[1]/a[1]</value>
-      <webElementGuid>c4dede7c-b6b7-4158-86e2-fea23f8e3280</webElementGuid>
+      <webElementGuid>e46cf6ca-48e1-4cae-9bbb-ce33e2d1ba26</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='content']/ul/li/a</value>
-      <webElementGuid>c97c9ca7-0017-49ae-8601-104c36be47c4</webElementGuid>
+      <webElementGuid>ab317b13-8d48-41c2-a87d-0ab921f81c24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'A/B Testing')]</value>
-      <webElementGuid>e32b87cb-f13b-44a9-8a0c-b42810b69302</webElementGuid>
+      <webElementGuid>09a00519-6c4f-4240-851d-2ed5cb82e0e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Available Examples'])[1]/following::a[1]</value>
-      <webElementGuid>dbe3cca6-b756-4dce-95c3-7215168d3b30</webElementGuid>
+      <webElementGuid>fbf15f6d-6bca-4910-b530-5fac6a90e1bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to the-internet'])[1]/following::a[1]</value>
-      <webElementGuid>41a8cd39-ae02-444c-bbb2-41aebd5780da</webElementGuid>
+      <webElementGuid>c3ef7445-493f-407c-8ff4-60d07dfcae47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add/Remove Elements'])[1]/preceding::a[1]</value>
-      <webElementGuid>0d669b53-5bd3-409b-903b-b371cc35fdb7</webElementGuid>
+      <webElementGuid>c03863f1-a644-46f7-a04d-01494f0e550e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='A/B Testing']/parent::*</value>
-      <webElementGuid>62f7e017-25f2-4ba8-bcbd-43272f5c495c</webElementGuid>
+      <webElementGuid>26c0cb4e-4f84-4f6e-8766-a0b52c319f19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/abtest')]</value>
-      <webElementGuid>b23f3265-5d88-47f7-8a87-3baaa958d857</webElementGuid>
+      <webElementGuid>b91ca49d-6aa7-49e9-aade-ab2071e16637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>f0a9c305-3478-4964-8f15-ad56571ed4bd</webElementGuid>
+      <webElementGuid>c21c580d-4a11-45cd-abcb-4d8a044bdff3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/abtest' and (text() = 'A/B Testing' or . = 'A/B Testing')]</value>
-      <webElementGuid>de86b8c9-9eee-48f5-8c79-8215cb92b1be</webElementGuid>
+      <webElementGuid>0041af7b-afa1-4a8e-a50f-ec2aad7fbab3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
