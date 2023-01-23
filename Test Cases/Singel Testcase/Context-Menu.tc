@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>menampilkan alet berhasil menekan area yang di clik</description>
+   <name>Context-Menu</name>
+   <tag>Singel</tag>
+   <comment></comment>
+   <testCaseGuid>01d99d7f-ce60-4155-bd57-a40a595944eb</testCaseGuid>
+</TestCaseEntity>

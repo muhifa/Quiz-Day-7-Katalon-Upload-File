@@ -21,13 +21,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/a_File Upload'))
+WebUI.click(findTestObject('Page_The Internet/a_Context Menu'))
 
-WebUI.uploadFile(findTestObject('Page_The Internet/input_File Uploader_file'), Hallo)
+WebUI.rightClick(findTestObject('Page_The Internet/div_Context Menu_hot-spot'))
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/input_File Uploader_file-submit'))
+WebUI.verifyAlertPresent(2)
+
+WebUI.acceptAlert()
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_The Internet/div_Context Menu  Context menu items are cu_2afa7e'))
 
 WebUI.closeBrowser()
 
