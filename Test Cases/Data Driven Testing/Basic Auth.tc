@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Melakukan authentikasi dengan menggunakan username dan password</description>
-   <name>Basic Auth</name>
-   <tag>Data Driving Tseting</tag>
-   <comment></comment>
-   <testCaseGuid>d602ea29-ad1b-4dc6-a7af-553b85e494e9</testCaseGuid>
-</TestCaseEntity>
